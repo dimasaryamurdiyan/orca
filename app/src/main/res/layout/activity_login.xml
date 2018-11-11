@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcity"
+    >
+
+    <ImageView
+        android:layout_marginTop="67dp"
+        android:layout_gravity="center"
+        android:layout_width="136dp"
+        android:layout_height="122dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORCA"
+        android:textSize="24dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="36dp"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="2dp"
+        />
+
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Username"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:background="@drawable/edittextbackground"
+        />
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:background="@drawable/edittextbackground"
+        />
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corners"
+        android:text="      LOGIN      "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+    <View
+        android:layout_width="180dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:layout_gravity="center" />
+
+
+        <!--android:src="@drawable/bgcity" />-->
+    
+</LinearLayout>
