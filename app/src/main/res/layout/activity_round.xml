@@ -31,11 +31,11 @@
         >
         <ImageView
             android:background="@drawable/bgshadow"
-            android:id="@+id/image5"
+            android:id="@+id/image3"
             android:layout_width="match_parent"
             android:layout_height="255dp"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/pic5"
+            android:src="@drawable/pic6"
             android:elevation="10dp"
             />
     </LinearLayout>
@@ -45,8 +45,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/namalogo4"
-            android:text="Movers"
+            android:id="@+id/namalogo3"
+            android:text="USA Network"
             android:fontFamily="sans-serif"
             android:textColor="#494949"
             android:textStyle="bold"
@@ -54,10 +54,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:layout_below="@+id/namalogo4"
+            android:layout_below="@+id/namalogo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/author1"
+            android:id="@+id/author3"
             android:text="by Iyin"
             android:fontFamily="sans-serif"
             android:textColor="#494949"
@@ -68,9 +68,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/harga1"
-            android:layout_toRightOf="@id/namalogo4"
-            android:text="$50"
+            android:id="@+id/harga3"
+            android:layout_toRightOf="@id/namalogo3"
+            android:text="$69"
             android:textStyle="bold"
             android:textSize="25dp"
             android:layout_alignParentRight="true"
@@ -80,10 +80,10 @@
             android:paddingRight="20dp"
             />
         <TextView
-            android:layout_below="@+id/namalogo4"
+            android:layout_below="@+id/namalogo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/deskripsi41"
+            android:id="@+id/deskripsi31"
             android:text="Last Update                    :"
             android:fontFamily="sans-serif"
             android:textColor="#494949"
@@ -92,10 +92,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"/>
         <TextView
-            android:layout_below="@+id/deskripsi41"
+            android:layout_below="@+id/deskripsi31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/deskripsi42"
+            android:id="@+id/deskripsi32"
             android:text="Created                           :"
             android:fontFamily="sans-serif"
             android:textColor="#494949"
@@ -104,10 +104,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:layout_below="@+id/deskripsi42"
+            android:layout_below="@+id/deskripsi32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/deskripsi43"
+            android:id="@+id/deskripsi33"
             android:text="Graphic Files Included  :"
             android:fontFamily="sans-serif"
             android:textColor="#494949"
@@ -116,10 +116,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:layout_below="@+id/deskripsi43"
+            android:layout_below="@+id/deskripsi33"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/deskripsi44"
+            android:id="@+id/deskripsi34"
             android:text="Resolution                      :"
             android:fontFamily="sans-serif"
             android:textColor="#494949"
@@ -128,10 +128,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"/>
         <TextView
-            android:layout_below="@+id/deskripsi44"
+            android:layout_below="@+id/deskripsi34"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/deskripsi45"
+            android:id="@+id/deskripsi35"
             android:text="Tag                                  :"
             android:fontFamily="sans-serif"
             android:textColor="#494949"
@@ -145,7 +145,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp">
         <Button
-            android:id="@+id/beli"
+            android:id="@+id/beli3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="BELI"
@@ -158,28 +158,6 @@
             />
     </RelativeLayout>
 
-    <!--<android.support.design.widget.AppBarLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
 
-        <!--<android.support.v7.widget.Toolbar-->
-            <!--android:id="@+id/toolbar"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="?attr/actionBarSize"-->
-            <!--android:background="?attr/colorPrimary"-->
-            <!--app:popupTheme="@style/AppTheme.PopupOverlay" />-->
-
-    <!--</android.support.design.widget.AppBarLayout>-->
-
-    <!--<include layout="@layout/content_movers" />-->
-
-    <!--<android.support.design.widget.FloatingActionButton-->
-        <!--android:id="@+id/fab"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="bottom|end"-->
-        <!--android:layout_margin="@dimen/fab_margin"-->
-        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
 
 </LinearLayout>

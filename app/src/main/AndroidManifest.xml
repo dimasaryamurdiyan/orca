@@ -16,8 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,7 +32,13 @@
         <activity
             android:name=".Movers"
             android:label="@string/title_activity_movers"
-            android:theme="@style/AppThemeact"></activity>
+            android:theme="@style/AppThemeact" />
+        <activity android:name=".usanetwork" />
+        <activity android:name=".round" />
+        <activity android:name=".RR" />
+        <activity android:name=".clap" />
+        <activity android:name=".PopActivity"
+            android:theme="@style/AppTheme.PopMe"></activity>
     </application>
 
 </manifest>

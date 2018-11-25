@@ -26,7 +26,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         ImageButton img2 = (ImageButton) findViewById(R.id.picbut2);
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent x = new Intent(MainActivity.this,usanetwork.class);
+                startActivity(x);
+            }
+        });
         ImageButton img3 = (ImageButton) findViewById(R.id.picbut3);
+        img3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent x = new Intent(MainActivity.this,round.class);
+                startActivity(x);
+            }
+        });
         ImageButton img4 = (ImageButton) findViewById(R.id.picbut4);
         img4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +50,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         ImageButton img5 = (ImageButton) findViewById(R.id.picbut5);
+        img5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this,clap.class);
+                startActivity(i);
+            }
+        });
         ImageButton img6 = (ImageButton) findViewById(R.id.picbut6);
+        img6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent x = new Intent(MainActivity.this, RR.class);
+                startActivity(x);
+            }
+        });
     }
 
     private void setSupportActionBar(AppBarLayout myAppbar) {
